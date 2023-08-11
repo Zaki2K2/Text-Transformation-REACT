@@ -33,9 +33,9 @@ export default function TextForm(props) {
       <div className="mb-3">
         <textarea className="form-control" value={text} onChange={handleOnChange} placeholder='Enter Text Here' id="myBox" rows="8"></textarea>
       </div>
-      <button className='btn btn-primary' onClick={handleUpClick}>Convert To UPPERCASE</button>
-      <button className='btn btn-primary' onClick={handleLowClick} style={{ margin: '20px' }}>Convert To lowercase</button>
-      <button className='btn btn-primary' onClick={handleDefaultClick} style={{ margin: '20px' }}>Convert To Default</button>
+      <button className='btn btn-primary' onClick={handleUpClick} style={{ margin: '2px', width: '200px',  }}>Convert To UPPERCASE</button>
+      <button className='btn btn-primary' onClick={handleLowClick} style={{ margin: '2px', width: '200px' }}>Convert To lowercase</button>
+      <button className='btn btn-primary' onClick={handleDefaultClick} style={{ margin: '2px', width: '200px' }}>Convert To Default</button>
     </div>
   );
 }
